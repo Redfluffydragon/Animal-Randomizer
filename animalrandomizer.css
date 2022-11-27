@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.center {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top {
+  align-self: end;
+  font-size: calc(12px + 5vmin);
+}
+
+button {
+  font-size: xx-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px 18px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgb(37, 194, 241);
+  border: 3px solid black;
+}
+
+button:hover {
+  background: rgb(14, 179, 230);
+}
